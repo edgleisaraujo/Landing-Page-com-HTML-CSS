@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #2E7D32;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção de benefícios */
+.beneficios {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.beneficios h2 {
+  margin-bottom: 20px;
+}
+
+.beneficios ul {
+  list-style: none;
+}
+
+.beneficios li {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* Formulário */
+.formulario {
+  background: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.formulario input, .formulario button {
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #2E7D32;
+}
+
+/* Rodapé */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
